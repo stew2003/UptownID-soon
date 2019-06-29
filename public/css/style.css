@@ -1,0 +1,41 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.icon{
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	transform-origin: center;
+	-webkit-transform-origin: center;
+}
+
+.center{
+	text-align: center;
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+
+}
+
+h1{
+	font-size: 4vw;
+	margin: 0;
+}
+
+#logo{
+	width: 12vw;
+	height: 12vw;
+}
