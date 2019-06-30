@@ -3,7 +3,6 @@ $(document).ready(function(){
 });
 
 var setup = function(n, r, theta, offset) {
-	console.log(offset);
 	var icons = document.getElementsByClassName('icon');
 	for(var i = 0; i<icons.length; i++){
 		var x =  (r * (Math.cos(theta[i] + offset)));
@@ -16,7 +15,7 @@ var setup = function(n, r, theta, offset) {
 
 	}
 	setTimeout(function(){
-		setup(n, r, theta, offset+=0.001)
+		setup(n, r, theta, offset+=0.005)
 	}, 10);
 }
 
