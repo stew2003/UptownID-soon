@@ -15,8 +15,8 @@ html, body{
 
 .icon{
 	position: absolute;
-	width: 5vw;
-	height: 5vw;
+	width: 8vmin;
+	height: 8vmin;
 	transform-origin: center;
 	-webkit-transform-origin: center;
 }
@@ -32,11 +32,11 @@ html, body{
 
 h1{
 	font-family: Futura, Trebuchet MS, Arial, sans-serif; 
-	font-size: 4vw;
+	font-size: 6vmin;
 	margin: 0;
 }
 
 #logo{
-	width: 12vw;
-	height: 12vw;
+	width: 20vmin;
+	height: 20vmin;
 }

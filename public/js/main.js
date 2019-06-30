@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	generate(document.getElementsByClassName('icon').length, 23);
+	generate(document.getElementsByClassName('icon').length, 40);
 });
 
 var setup = function(n, r, theta, offset) {
@@ -11,7 +11,7 @@ var setup = function(n, r, theta, offset) {
 		// translate the element
 	    icons[i].style.webkitTransform =
 	    icons[i].style.transform =
-	      'translate(50vw, 50vh) translate(-50%, -50%) translate(' + x + 'vw, ' + y + 'vw)';
+	      'translate(50vw, 50vh) translate(-50%, -50%) translate(' + x + 'vmin, ' + y + 'vmin)';
 
 	}
 	setTimeout(function(){
